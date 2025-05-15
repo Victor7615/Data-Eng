@@ -1,0 +1,8 @@
+
+ docker run -it \
+    -e POSTGRES_USER="root" \
+    -e POSTGRES_PASSWORD="root" \
+    -e POSTGRES_DB="ny_taxia" \
+    -v c:/Users/USER/Desktop/Data-Eng/ny_taxi-posgres_data:/var/lib/postgresql/data \
+    -p 5433:5432 \
+    postgres:16
